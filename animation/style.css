@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    width: 1200px;
+}
+.box{
+    width: 1200px;
+    height: 240px;
+    border: 1px solid red;
+    margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+}
+.slider{
+    width: 8400px;
+    position: absolute;
+    left: -1200px;
+}
+.slide{
+    widows: 1200px;
+    overflow: hidden;
+    float: left;
+}
+.box>span{
+    display: block;
+    width: 30px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    top: 105px;
+    line-height: 50px;
+    background: rgb(255,0,0);
+    font-size: 30px;
+    position: absolute;
+    opacity: 0;
+}
+#left{
+    left: 30px;
+}
+#right{
+    right: 30px;
+}
+.nav{
+    position: absolute;
+    left: 500px;
+    bottom:20px;
+}
+.nav>li{
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: #ccc;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 50%;
+    list-style-type:none;
+}
+.nav .active{
+    background: red;
+}
